@@ -1,0 +1,25 @@
+
+*{
+
+   
+}
+
+.cabeza{
+border-block-end-style:outset;
+border-block-end-color: gainsboro;
+height: 90px;
+max-width: 100%;
+background: white;
+}
+
+
+.registro{
+
+float:right ;
+height: 700px;
+width: 500px;
+background: red;
+
+
+
+}

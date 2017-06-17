@@ -1,0 +1,55 @@
+*{
+
+
+
+}
+.cabeza{
+border-block-end-style:outset;
+border-block-end-color: gainsboro;
+height: 90px;
+max-width: 100%;
+
+background-color:white;
+}
+
+
+
+.login_cliente{
+float: right;
+height: 450px;
+width: 500px;
+background: red;
+
+
+}
+
+.registro_usuario{
+
+
+float: left;
+height: 450px;
+width: 500px;
+background: red;
+left:100px ;
+
+}
+     h1{
+
+
+   text-align: center;
+
+
+    }
+ .info{
+
+
+border-block-end-style:outset;
+border-block-end-color: gainsboro;
+height: 90px;
+max-width: 100%;
+
+background-color:white;
+
+float: center;
+
+ }   
