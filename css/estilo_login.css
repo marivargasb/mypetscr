@@ -60,21 +60,34 @@ margin:  auto;
 
 .login{
 
-margin: auto;
+
+display: flex;
+
+}
+.lo{
+  margin: auto;
 width: 50%;
 max-width: 1000px;
-background: white;
+
 padding: 40px;
+background: white;
 border: 1px solid rgba(0,0,0,0.30);
 
+}
 
+.lolo{
+  margin: auto;
+width: 50%;
+max-width: 1000px;
+
+padding: 40px;
+background: white;
+border: 1px solid rgba(0,0,0,0.30);
 
 }
 
-div{
-display: table-cell;
 
-}
+
 
 
 
