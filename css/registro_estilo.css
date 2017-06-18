@@ -1,25 +1,136 @@
 
 *{
 
+
+margin: 0;
+padding: 0;
+font-family:  Arial;
+
    
 }
 
-.cabeza{
-border-block-end-style:outset;
-border-block-end-color: gainsboro;
-height: 90px;
-max-width: 100%;
-background: white;
+
+body{
+
+ background: url('C:/Users/mariv/OneDrive/Pictures/104D7100/11.jpg');
+background-position: top; 
+
+min-height: 100vh;
+/* display: flex;  ***/
+
 }
+
+/*                     encabezado                                    */
+header {
+
+width:  100%;
+overflow: hidden;
+background: white;
+margin-bottom: 20px;
+
+}
+p{
+
+color: black; 
+
+}
+
+.wrappper{
+
+width: 90%;
+max-width: 1000px;
+margin: auto;
+overflow: hidden;
+
+}
+
+header .logo{
+
+color:white;
+font-size: 50px;
+line-height: 100px;
+
+
+}
+
+
+
+/*  REGISTROOOO */
 
 
 .registro{
-
-float:right ;
-height: 700px;
-width: 500px;
-background: red;
+width: 40%;
+max-width: 500px;
+background: white;
+padding: 90px;
+border: 1px solid rgba(0,0,0,0.40);
+margin:  auto;
 
 
 
 }
+
+
+
+
+h3{
+
+text-align: center;
+font-size: 30px;
+color: #424949  ;
+padding:  25px;
+font-weight: lighter;
+
+}
+
+input{
+
+display: block;   
+padding:10px; /*   altura  */
+width: 90%;
+margin:  20px 0px; /* arriba y abajo*/ 
+font-size: 20px;
+overflow:hidden;
+
+}
+
+
+
+
+.boton{
+background:  #2E86C1 ; /* DEGRADADO*/ 
+border:0;
+
+color: black;
+
+border-radius: 5px;
+margin-bottom: 0;
+float: right;
+width: 300px;
+ overflow:hidden;
+
+
+}
+
+label {
+
+color: #424949;
+font-weight: bolder;
+font-size: 15px;
+text-align: CENTER;
+
+}
+
+select{
+
+display: block;   
+padding:10px; /*   altura  */
+width: 90%;
+margin:  40px 0px; /* arriba y abajo*/ 
+font-size: 30px;
+overflow:hidden;
+
+
+}
+
+

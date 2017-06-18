@@ -15,6 +15,9 @@ min-height: 100vh;
 /* display: flex;  ***/
 
 }
+
+
+/*                     encabezado                                    */
 header {
 
 width:  100%;
@@ -46,26 +49,40 @@ line-height: 100px;
 
 
 }
-.info{
+
+
+/*  encabezado con la informacion */
+
+.info_pets{
+
 
 width: 100%;
 max-width: 1060px;
-background: white;
-padding: 25px;
-border: 1px solid rgba(0,0,0,0.30);
-margin:  auto;
 
+padding: 50px;
+
+margin:  auto;
+ overflow:hidden;
 
 }
-.info p{
+.info_pets h1{
 
+text-align: center;
+font-size: 40px;
+color: #424949  ;
+}
+.info_pets p{
 
-font-size: 24px;
+text-align: center;
+font-size: 25px;
 color: #424949  ;
 
 }
 
-.login{
+
+/* registros  */ 
+
+.login_registro{
 
 
 display: flex;
@@ -87,7 +104,7 @@ color: #424949;
 font-size: 20px;
 font-weight: lighter;
 }
-.lo{
+.login{
   
 width: 100%;
 
@@ -105,7 +122,7 @@ overflow:hidden;
  
 }
 
-.lolo{
+.registro{
 
 width: 100%;
 
@@ -167,9 +184,52 @@ width: 300px;
 
 }
 
+
+
+/* linea estica */
+.linea{
+width: 100%;
+max-width: 1060px;
+
+padding: 50px;
+
+margin:  auto;
+ overflow:hidden;
+
+
+}
+ 
+
+
+
+/*   ultima parte   */
+.info_registro{
+
+width: 100%;
+max-width: 1060px;
+background: white;
+padding: 25px;
+border: 1px solid rgba(0,0,0,0.30);
+margin:  auto;
+
+
+}
+.info_registro p{
+
+
+font-size: 24px;
+color: #424949  ;
+
+}
+
+
+
+/*ultima parte */
+
+ 
 @media(max-width:768px){
 
-.info{
+.info_registro{
 
   width: 50%;
 }
@@ -186,40 +246,4 @@ width: 50%;
 }
 }
 
-.info_pets{
 
-
-width: 100%;
-max-width: 1060px;
-
-padding: 50px;
-
-margin:  auto;
- overflow:hidden;
-
-}
-.info_pets h1{
-
-text-align: center;
-font-size: 40px;
-color: #424949  ;
-}
-.info_pets p{
-
-text-align: center;
-font-size: 25px;
-color: #424949  ;
-
-}
-.linea{
-width: 100%;
-max-width: 1060px;
-
-padding: 50px;
-
-margin:  auto;
- overflow:hidden;
-
-
-}
- 
