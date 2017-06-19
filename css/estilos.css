@@ -1,6 +1,23 @@
+
 *{
 
-background: 
+
+margin: 0;
+padding: 0;
+font-family:  Arial;
+
+   
+}
+
+
+body{
+
+ background: grey;
+background-position: top; 
+
+min-height: 100vh;
+/* display: flex;  ***/
+
 }
 
 .etiqueta{
@@ -8,5 +25,114 @@ background:
 color: red; 
 width: 50% ;
 height:  50%;
+
+}
+
+/*                     encabezado                                    */
+header {
+
+width:  100%;
+overflow: hidden;
+background:white;
+margin-bottom: 80px;
+padding: 30px;
+display: flex;
+
+
+}
+
+
+
+header .logo{
+
+
+width:auto;
+max-width: 1000px;
+margin: auto;
+overflow: hidden;
+
+
+
+}
+
+.logo img{
+
+
+
+display: flex;
+width: 300px;
+height: 150px;
+
+}
+
+
+.opciones{
+
+
+width: 900PX;
+background:white;
+display: flex;
+
+justify-content: center;
+
+
+}
+
+ul{
+width: auto;
+
+background: white;
+ padding: auto;
+ position: relative;
+  
+
+}
+
+ul li{
+
+
+border-left : 1px  solid #E5E8E8  ;
+font-size:  35px;
+padding: 50px;
+color: gray  ;
+list-style: none;
+display: inline-block;
+ 
+
+}
+ header a{
+
+    color: gray  ;
+     text-decoration:none;  
+     
+}
+
+header .opciones > ul> li{
+
+display: inline-block;
+
+}
+
+
+
+header span{
+
+font-size: 100px;
+position: absolute;
+bottom:  -70px;
+
+
+}
+
+header span:hover{
+
+display: flex;
+color:black
+
+}
+
+.perfil{
+
+display: flex;
 
 }
