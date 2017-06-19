@@ -25,33 +25,45 @@ header {
 
 width:  100%;
 overflow: hidden;
-background: white;
-margin-bottom: 60px;
-
-}
-p{
-
-color: black; 
+background:white;
+margin-bottom: 80px;
+padding: 30px;
 
 }
 
-.wrappper{
 
-width: 90%;
+
+header .logo{
+
+
+width: 100%;
 max-width: 1000px;
 margin: auto;
 overflow: hidden;
 
 }
 
-header .logo{
+.logo img{
 
-color:white;
-font-size: 50px;
-line-height: 100px;
 
+margin: auto;
+display: flex;
+width: 250px;
+height: 150px;
 
 }
+
+/*
+.logo p{
+
+text-align: center;
+line-height: 150px;
+font-size: 80px;
+font-weight: bolder;
+color: gainsboro;
+
+
+}*/
 
 
 
@@ -76,10 +88,11 @@ margin:  auto;
 h3{
 
 text-align: center;
-font-size: 30px;
-color: #424949  ;
+font-size: 40px;
+color: #515A5A   ;
 padding:  25px;
 font-weight: lighter;
+margin-bottom: 30px;
 
 }
 
@@ -93,7 +106,7 @@ font-size: 20px;
 overflow:hidden;
 
 
-border-block-end-width: 50px;
+
 
 }
 
@@ -104,22 +117,33 @@ border-block-end-width: 50px;
 background:  #2E86C1 ; /* DEGRADADO*/ 
 border:0;
 
-color: black;
-
 border-radius: 5px;
-margin-bottom: 0;
+
 float: right;
 width: 300px;
  overflow:hidden;
+ font-size: 15px;
+
+color: white;
+font-weight: bold;
 
 
 }
 
+.boton:hover{
+
+    background:  #154360 ;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bolder;
+    
+}
 label {
 
 color: #424949;
 font-weight: bolder;
-font-size: 15px;
+font-size: 18px;
 text-align: CENTER;
 
 }
@@ -128,9 +152,9 @@ select{
 
 display: block;   
 padding:10px; /*   altura  */
-width: 90%;
-margin:  40px 0px; /* arriba y abajo*/ 
-font-size: 30px;
+width: 95%;
+margin:  20px 0px; /* arriba y abajo*/ 
+font-size: 20px;
 overflow:hidden;
 
 
@@ -164,7 +188,7 @@ font-family: Arial, Helvetica, sans-serif;
 font-size: 30px;
 color: #8c8c8c ;
 text-align: justify;
-line-height: 30spx;
+line-height: 30px;
 }
 
 
