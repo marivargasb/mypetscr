@@ -1,0 +1,177 @@
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Raleway ExtraLight'), local('Raleway-ExtraLight'), url(https://fonts.gstatic.com/s/raleway/v11/8KhZd3VQBtXTAznvKjw-k_k_vArhqVIZ0nv9q090hN8.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+
+
+
+header{
+    
+    
+    margin-bottom: 10px;
+}
+
+.menu{
+    
+    
+  background: #252528;  
+ 
+    
+}
+
+
+.sub{
+    
+    
+    list-style: none;
+    line-height: 70px;
+    margin: 2em auto;
+   /* outline: 1px solid red;*/
+    padding-left: 0;
+    width: 15em;
+ 
+}
+
+.sub a{
+    background: url(C:/Users/mariv/Documents/GitHub/mypetscr/img/ava.png) no-repeat left ;
+    color:aliceblue;
+    display: block;
+    padding-left: 42px;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+   font-family: 'Raleway', sans-serif;
+     --webkit-transition: all .5s  ;
+    -o-transition:all .5s ;
+    transition: all .5s;
+    
+    
+    
+}
+
+.sub a:hover{
+    
+    margin-left: 1em;
+    
+    
+}
+
+.sub li{
+
+   box-shadow: 4px 0 rgba(255,255,255,.2) inset;
+    margin-bottom: 5px;
+    padding-left: 1.em;
+    padding-left: 15px;
+    --webkit-transition: all .5s  ;
+    -o-transition:all .5s ;
+    transition: all .5s;
+    
+    
+   
+}
+
+.sub li:hover  {
+    
+    
+    
+    box-shadow:  15em 0 rgba(255,255,255,.2) inset;
+    
+}
+
+/*
+.menu li:nth-child(2) a
+{
+    background-position: 0 -42px;
+    
+}
+*/
+
+/* pocision de  SECCION*/
+
+
+
+
+.sub {
+    
+    
+   
+    position: absolute
+ left: -18em
+    
+    
+    
+    
+}
+
+
+
+
+
+<!--  perfil  -->
+
+
+.perfil{
+    
+    margin-bottom:  600px;
+
+
+    
+    
+}
+
+.perfil p{
+    
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+ 
+    
+}
+
+.imagen-perfil{
+    
+    width: auto;
+    padding: 50px ;
+    
+    
+}
+
+
+.perfil  .imagen-perfil img{
+
+    
+  
+    display: flex;
+    width: 175px;
+    height: 175px;
+     border-radius: 100%;
+    border: 1px solid rgba(0,0,0,0.40);
+      margin: auto;
+    display: flex;
+       
+    
+}
+
+.perfil img:hover{
+    
+      
+  
+    width: 200px;
+    height: 200px;
+     border-radius: 100%;
+    border: 1px solid rgba(0,0,0,1);
+    padding: 10px;
+   
+ 
+    
+}
+
+
+
+
+
+
