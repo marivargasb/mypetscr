@@ -20,6 +20,7 @@ header .logo {
     max-width: 1000px;
     margin: auto;
     overflow: hidden;
+    background: white;
 }
 
 .logo img {
@@ -27,6 +28,7 @@ header .logo {
     display: flex;
     width: 300px;
     height: 150px;
+    background: white;
 }
 
 footer{

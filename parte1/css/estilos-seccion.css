@@ -5,12 +5,17 @@ header {
 
 /*mascota */
 
-* {}
+* {
+    background: darkgrey;
+}
 
 .perfil {
     display: inline-block;
     borde: 1px solid rgba(0, 0, 0, 0.40);
     margin-bottom: 60px;
+
+    margin: -10px 250px;
+
 }
 
 .imagen-perfil {
@@ -24,6 +29,7 @@ header {
     width: 200px;
     height: 200px;
     border-radius: 100%;
+    margin: 0px 500px;
 }
 
 .perfil img:hover {
@@ -36,22 +42,59 @@ header {
     width: 75em;
     padding: 100px;
     display: flex;
-    background: red;
+    background: white;
     margin-bottom: 20px;
-    border: 1px solid gray;
+    border: 1px solid rgba(0, 0, 0, 0.40);
+}
+
+/*    DIVIDOR                */
+
+.guardar{
+    background: white;
+   padding-top: 100px;
+
+    
+    
+}
+
+.guardar p{
+    
+    
+      background: white;
+    font-size: 25px;
+    height: 80px;
+    width: 400px;
+    
+    
 }
 
 
-/*         iman-favorio              */
 
-.favoritos {
+
+
+/*         iman-favorio      */        
+
+.favoritos{
+    
+    
+   display: inline-block;
+    borde: 1px solid rgba(0, 0, 0, 0.40);
+    margin-bottom: 60px;
+
+    margin: -20px 200px;
+    
+}
+
+
+.favoritos1 {
     margin: 50px;
     width: 650px;
     height: 200px;
     border: 1px solid gray;
+    background: white;
 }
 
-.favoritos img {
+.favoritos1 img {
     float: left;
     width: 200px;
     height: 200px;
@@ -65,13 +108,13 @@ header {
     width: 400px;
     padding-top: 60px;
     text-align: center;
-    
-    
-   }
+    background: white;
+}
 
-.lugar h3 {
+.texto h3 {
+    background: white;
     font-size: 25px;
-    height: 60px;
+    height: 80px;
     width: 400px;
 }
 
@@ -85,7 +128,6 @@ header {
     text-align: center;
     border-radius: 12px;
     margin: 2px;
-  
 }
 
 .texto .categoria {
@@ -95,7 +137,7 @@ header {
     color: white;
     font-size: 11px;
     font-weight: bolder;
-     text-align: center;
+    text-align: center;
     border-radius: 12px;
 }
 
@@ -122,17 +164,19 @@ header {
 }
 
 .header nav ul {
+    background: #1F618D;
     overflow: hidden;
     list-style: none;
 }
 
 .header nav ul li {
     float: left;
-    border: 1px solid rgba(149, 165, 166);
+    border: 1px solid gray;
 }
 
 .header nav ul li a {
     color: #fff;
+    background: #1F618D;
     padding: 35px;
     display: block;
     text-decoration: none;
@@ -151,6 +195,11 @@ section {
 }
 
 @media screen and (max-width:1500px) {
+ 
+    
+    
+    /*    menu  */
+    
     .header nav {
         width: 80%;
         height: 100%;
