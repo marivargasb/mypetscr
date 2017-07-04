@@ -22,13 +22,13 @@ header {
     height: 75px;
     background: white;
 }
-.opciones-menu{
+.icono{
 
     
 }
 .opciones-menu .dropdown-toggle{
-  font-size: 30px;
-  border-left: 1px solid #707B7C  ;
+  font-size: 19px;
+  border-left: px solid #707B7C  ;
     
 }
 

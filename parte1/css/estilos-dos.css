@@ -10,9 +10,11 @@ header {
     width: 100%;
     overflow: hidden;
     background: #FDFEFE;
-    margin-bottom: 1000px;
+    margin-bottom: 100px;
     padding: 30px;
-    border: 1px solid rgba(0, 0, 0, 0.40);
+      -webkit-box-shadow: 10px 11px 5px -11px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 10px 11px 5px -11px rgba(0, 0, 0, 0.57);
+    box-shadow: 10px 11px 5px -11px rgba(0, 0, 0, 0.57);
 }
 
 header .logo {
