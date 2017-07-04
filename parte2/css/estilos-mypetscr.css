@@ -31,6 +31,7 @@ header {}
     font-weight: bold;
 }
 .categorias{
+
 margin-top: 20px ;
     background: white;
 }
@@ -43,4 +44,5 @@ margin-top: 20px ;
     -webkit-box-shadow: 10px 11px 5px -11px rgba(0, 0, 0, 0.57);
     -moz-box-shadow: 10px 11px 5px -11px rgba(0, 0, 0, 057);
     box-shadow: 10px 11px 5px -11px rgba(0, 0, 0, 0.57);
+ margin-bottom: 30px;
 }

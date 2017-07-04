@@ -9,50 +9,105 @@
     <link rel="stylesheet" href="css/estilos-mypetscr.css"> </head>
 
 <body>
-    <!--
-    <header class="col-lg-12">
-        <div class="container">
-            <div class="logo col-lg-9"> <img src="C:\Users\mariv\Documents\GitHub\mypetscr\img\lo.png" /> </div>
-            <div class="dropdown col-lg-1">
-                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"> Mi Perfil <span class="caret"></span> </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                    <li><a href="#">crear cuenta</a></li>
-                    <li><a href="#">iniciar secion</a></li>
-                    <li><a href="#">Sobre nosotros</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="#">Separated link</a></li>
-                </ul>
-            </div>
-        </div>
+   
+    <header >
+     <nav class="navbar navbar-default navbar-static-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Page 1-1</a></li>
+          <li><a href="#">Page 1-2</a></li>
+          <li><a href="#">Page 1-3</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Page 2</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+  </div>
+</nav>
     </header>
--->
+
     <header>
         <div class="container">
-            <section class="busqueda col-lg-12">
-                <nav class="navbar navbar-default navbar-fixed-top ">
-                    <div class="conteiner-fluid col-lg-9"> 
+            <section class="busqueda col-lg-9">
+                <nav class="navbar navbar-default navbar-fixed-bottom">
+                    <div class="conteiner-fluid ">
                         <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-1"> <span class="sr-only"> Menu</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a href="#" class="navbar-brand">My pets cr</a> </div>
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-1"> <span class="sr-only"> Menu</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a href="#" class="navbar-brand">BUSCADOR</a> </div>
                         <div class="collapse navbar-collapse" id="navbar-1">
                             <ul class="nav navbar-nav">
-                                <li><a href="#">Barrio</a></li>
-                                <li class="active"><a href="#">Canton</a></li>
+                                
+                                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Categoria
+                            <span class="caret"></span>
+                            
+                            </a>
+                                    <ul class="dropdown-menu">
+                                          <form>
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox" value="">Hotel</label>
+                                            </div>
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox" value="">Restaurante</label>
+                                            </div>
+                                            <div class="checkbox ">
+                                                <label>
+                                                    <input type="checkbox" value="" >Parque</label>
+                                            </div>
+                                        </form>                       
+                                    </ul>
+                                </li>
                                 <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Provincia
                             <span class="caret"></span>
                             
                             </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#">item #1</a></li>
-                                        <li><a href="#">item #2</a></li>
-                                        <li class="divider"></li>
-                                        <li><a href="#">provincia</a></li>
+                                              <form>
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox" value="">Nicoya</label>
+                                            </div>
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox" value="">Guanacaste</label>
+                                            </div>
+                                            <div class="checkbox ">
+                                                <label>
+                                                    <input type="checkbox" value="" >Puntarenas</label>
+                                            </div>
+                                            <div class="checkbox ">
+                                                <label>
+                                                    <input type="checkbox" value="" >San Jose</label>
+                                            </div>
+                                            <div class="checkbox ">
+                                                <label>
+                                                    <input type="checkbox" value="" >Alajuela</label>
+                                            </div>
+                                            <div class="checkbox ">
+                                                <label>
+                                                    <input type="checkbox" value="" >Cartago</label>
+                                            </div>
+                                            <div class="checkbox ">
+                                                <label>
+                                                    <input type="checkbox" value="" >Limon</label>
+                                            </div>
+                                        </form>
                                     </ul>
                                 </li>
                             </ul>
                             <form action="" class="navbar-form navbar-left " role="search">
                                 <div class="form-group">
                                     <input type="text" class="form-control" placeholder="Buscar"> </div>
-                                <button type="submit" class="btn btn-default">Submit</button>
+                                <button type="submit" class="btn btn-default">BUSCAR</button>
                             </form>
                         </div>
                     </div>
@@ -62,44 +117,120 @@
     </header>
     <section class="secciones ">
         <div class="container ">
+           <div class="restaurante_para_perros">
             <div class="recusos col-lg-9 ">
                 <div class=" logo col-lg-3"> <img src="C:\Users\mariv\Documents\GitHub\mypetscr\img\res.jpg" /> </div>
+                <div class="informacion  col-lg-5">
+                    <h3> Hotel para perros</h3>
+                    <p class="text-info"> <b>Direccion:</b>Esta hubicado en el centro de monteverde </p>
+                    <p class="text-muted"> <b>correo:</b> mvb23@gmail.com </p>
+                </div>
+                <div class="categorias col-lg-3">
+                    <p class="text-success "><b>Categoria</b></p> <span class="label label-primary ">RESTAURANTE</span>
+                    <p class="text-success "> <b>Provincia </b></p> <span class="label label-danger ">GUANACASTE</span>
+                    <p><a href="https://facebook.com">ir a pagina web</a></p>
+                    <p> telefono:84267204</p>
+                </div>
+            </div>
+            <div class="comentario  col-lg-9">
+                <button class="btn btn-primary " type="button"> me gusta <span class="badge">42</span> </button>
+                <button class="btn btn-danger " type="button"> no es bueno <span class="badge">42</span> </button>
+                <button class="btn btn-warning " type="button"> Comentarios <span class="badge">5</span> </button>
+                <form class="navbar-form navbar-right ">
+                    <div class="form-group ">
+                        <input type="text" class="form-control" placeholder="comentario"> </div>
+                    <button type="submit" class="btn btn-default">enviar</button>
+                </form>
+                </div>
+            </div>
+            
+            
+            
+            
+            <div class="hotel_para_perros">
+            <div class="recusos col-lg-9 ">
+                <div class=" logo col-lg-3"> <img src="C:\Users\mariv\Documents\GitHub\mypetscr\img\ho.jpg" /> </div>
                 <div class="informacion  col-lg-5">
                     <h3> Restaurante para perros</h3>
                     <p class="text-info"> <b>Direccion:</b>Esta hubicado en el centro de monteverde </p>
                     <p class="text-muted"> <b>correo:</b> mvb23@gmail.com </p>
-                   
                 </div>
                 <div class="categorias col-lg-3">
-                <p class="text-success "><b>Categoria</b></p>
-                <span class="label label-primary ">RESTAURANTE</span>
-                <p class="text-success "> <b>Provincia </b></p>
-                <span class="label label-danger ">GUANACASTE</span>
-                
-             <p><a href="https://facebook.com">ir a pagina web</a></p>
-                  <p> telefono:84267204</p>   
+                    <p class="text-success "><b>Categoria</b></p> <span class="label label-primary ">HOTEL</span>
+                    <p class="text-success "> <b>Provincia </b></p> <span class="label label-danger ">SAN JOSE</span>
+                    <p><a href="https://facebook.com">ir a pagina web</a></p>
+                    <p> telefono:84267204</p>
                 </div>
             </div>
             <div class="comentario  col-lg-9">
-            <button class="btn btn-primary " type="button">
-            me gusta <span class="badge">42</span>
-            </button>
-             <button class="btn btn-danger " type="button">
-            no es bueno <span class="badge">42</span>
-            </button>
-              <button class="btn btn-warning " type="button">
-            Comentarios <span class="badge">5</span>
-            </button>
-        
-
-            <form class="navbar-form navbar-right ">
-        <div class="form-group ">
-          <input type="text" class="form-control" placeholder="comentario">
-        </div>
-        <button type="submit" class="btn btn-default">enviar</button>
-        
-      </form>
+                <button class="btn btn-primary " type="button"> me gusta <span class="badge">42</span> </button>
+                <button class="btn btn-danger " type="button"> no es bueno <span class="badge">42</span> </button>
+                <button class="btn btn-warning " type="button"> Comentarios <span class="badge">5</span> </button>
+                <form class="navbar-form navbar-right ">
+                    <div class="form-group ">
+                        <input type="text" class="form-control" placeholder="comentario"> </div>
+                    <button type="submit" class="btn btn-default">enviar</button>
+                </form>
+                </div>
             </div>
+            
+                 <div class="hotel_para_perros">
+            <div class="recusos col-lg-9 ">
+                <div class=" logo col-lg-3"> <img src="C:\Users\mariv\Documents\GitHub\mypetscr\img\ho.jpg" /> </div>
+                <div class="informacion  col-lg-5">
+                    <h3> Restaurante para perros</h3>
+                    <p class="text-info"> <b>Direccion:</b>Esta hubicado en el centro de monteverde </p>
+                    <p class="text-muted"> <b>correo:</b> mvb23@gmail.com </p>
+                </div>
+                <div class="categorias col-lg-3">
+                    <p class="text-success "><b>Categoria</b></p> <span class="label label-primary ">HOTEL</span>
+                    <p class="text-success "> <b>Provincia </b></p> <span class="label label-danger ">SAN JOSE</span>
+                    <p><a href="https://facebook.com">ir a pagina web</a></p>
+                    <p> telefono:84267204</p>
+                </div>
+            </div>
+            <div class="comentario  col-lg-9">
+                <button class="btn btn-primary " type="button"> me gusta <span class="badge">42</span> </button>
+                <button class="btn btn-danger " type="button"> no es bueno <span class="badge">42</span> </button>
+                <button class="btn btn-warning " type="button"> Comentarios <span class="badge">5</span> </button>
+                <form class="navbar-form navbar-right ">
+                    <div class="form-group ">
+                        <input type="text" class="form-control" placeholder="comentario"> </div>
+                    <button type="submit" class="btn btn-default">enviar</button>
+                </form>
+                </div>
+            </div>
+            
+            
+            
+            
+                 <div class="hotel_para_perros">
+            <div class="recusos col-lg-9 ">
+                <div class=" logo col-lg-3"> <img src="C:\Users\mariv\Documents\GitHub\mypetscr\img\ho.jpg" /> </div>
+                <div class="informacion  col-lg-5">
+                    <h3> Restaurante para perros</h3>
+                    <p class="text-info"> <b>Direccion:</b>Esta hubicado en el centro de monteverde </p>
+                    <p class="text-muted"> <b>correo:</b> mvb23@gmail.com </p>
+                </div>
+                <div class="categorias col-lg-3">
+                    <p class="text-success "><b>Categoria</b></p> <span class="label label-primary ">HOTEL</span>
+                    <p class="text-success "> <b>Provincia </b></p> <span class="label label-danger ">SAN JOSE</span>
+                    <p><a href="https://facebook.com">ir a pagina web</a></p>
+                    <p> telefono:84267204</p>
+                </div>
+            </div>
+            <div class="comentario  col-lg-9">
+                <button class="btn btn-primary " type="button"> me gusta <span class="badge">42</span> </button>
+                <button class="btn btn-danger " type="button"> no es bueno <span class="badge">42</span> </button>
+                <button class="btn btn-warning " type="button"> Comentarios <span class="badge">5</span> </button>
+                <form class="navbar-form navbar-right ">
+                    <div class="form-group ">
+                        <input type="text" class="form-control" placeholder="comentario"> </div>
+                    <button type="submit" class="btn btn-default">enviar</button>
+                </form>
+                </div>
+            </div>
+            
         </div>
     </section>
     <!-- script -->
