@@ -1,11 +1,38 @@
 body {
-    padding-top: 80px;
+  
     background: #EAEDED;
 }
 
-header {}
+header {
+    
+    width: 100%;
+    overflow: hidden;
+    background: #FDFEFE;
+    margin-bottom: 50px;
+    padding: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.40);
+}
 
-.logo img {
+
+
+.logo .img {
+    margin: auto;
+    display: flex;
+    width: 150px;
+    height: 75px;
+    background: white;
+}
+.opciones-menu{
+
+    
+}
+.opciones-menu .dropdown-toggle{
+  font-size: 30px;
+  border-left: 1px solid #707B7C  ;
+    
+}
+
+ img {
     margin: 20px;
     width: 175px;
     height: 150px;
