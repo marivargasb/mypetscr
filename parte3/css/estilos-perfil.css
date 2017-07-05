@@ -163,7 +163,7 @@ box-shadow: 1px 1px 5px 1px rgba(122,118,122,1);
     display: flex;
     background: white;
     margin-bottom: 20px;
-
+    border: 1px solid rgba(0, 0, 0, 0.40);
 }
 
 /*    DIVIDOR                */
@@ -197,71 +197,77 @@ box-shadow: 1px 1px 5px 1px rgba(122,118,122,1);
 
 .favoritos{
     
-    margin: 0px 400px;
-    borde: 1px solid rgba(0, 0, 0, 0.40);
-    margin-bottom: 60px;
-     background: red;
+    margin: 40px 100px;
+
 
         display: inline-flex;
     
-    
+ 
     
 }
 
 
-.favoritos1 {
-    margin: 20px 100px;
-    float: left;
-    width: 650px;
-    height: 200px;
-    border: 1px solid gray;
-    background: white;
-}
-
-.favoritos2{
+.favoritos2 {
    
-    margin: 20px;
+    margin: 10px;
     float: right;
-    width: 650px;
-    height: 200px;
+    height: 150px;
+    width: 350px;
     border: 1px solid gray;
     background: white;
+          -webkit-box-shadow: 1px 1px 5px 1px rgba(122,118,122,1);
+-moz-box-shadow: 1px 1px 5px 1px rgba(122,118,122,1);
+box-shadow: 1px 1px 5px 1px rgba(122,118,122,1);
 
+}
+
+
+.favoritos1{
+   
+    margin: 10px;
+    float: left;
+    height: 150px;
+    width: 350px;
+    border: 1px solid gray;
+    background: white;
+      -webkit-box-shadow: 1px 1px 5px 1px rgba(122,118,122,1);
+-moz-box-shadow: 1px 1px 5px 1px rgba(122,118,122,1);
+box-shadow: 1px 1px 5px 1px rgba(122,118,122,1);
 }
 
 
 
 .favoritos1 img {
     float: left;
-    width: 200px;
-    height: 200px;
-    
+    width: 100px;
+    height: 100px;
 }
+
 
 
 .favoritos2 img {
     float: left;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
 }
 
 
 .texto {
     float: right;
     display: block;
-    margin-bottom: -50px;
+  
     height: 130px;
-    width: 400px;
-    padding-top: 60px;
+    width: 233px;
+
     text-align: center;
-    background: white;
+background: white;
 }
 
 .texto h3 {
     background: white;
-    font-size: 25px;
-    height: 80px;
-    width: 400px;
+    font-size: 15px;
+    height: 70px;
+    width: 150px;
 }
 
 .texto .lugar {
@@ -269,8 +275,8 @@ box-shadow: 1px 1px 5px 1px rgba(122,118,122,1);
     height: 20px;
     width: 110px;
     color: white;
-    font-size: 11px;
-    font-weight: bolder;
+    font-size: 9px;
+    font-weight: bold;
     text-align: center;
     border-radius: 12px;
     margin: 2px;
@@ -281,8 +287,8 @@ box-shadow: 1px 1px 5px 1px rgba(122,118,122,1);
     height: 20px;
     width: 110px;
     color: white;
-    font-size: 11px;
-    font-weight: bolder;
+    font-size: 9px;
+    font-weight: bold;
     text-align: center;
     border-radius: 12px;
 }
