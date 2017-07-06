@@ -1,9 +1,46 @@
-
+body{
+    
+    background: white;
+    
+}
+header img{
+    
+    
+       margin: auto;
+    display: flex;
+    width: 230px;
+    height: 90px;
+    background: white;
+}
 .navegador{
     
-    height: 80px;
-   
+    height: 130px;
+   background: white;
+    
+}
 
+.navbar {
+    background: white;
+        -webkit-box-shadow: 1px 1px 5px 1px rgba(122,118,122,1);
+-moz-box-shadow: 1px 1px 5px 1px rgba(122,118,122,1);
+box-shadow: 1px 1px 5px 1px rgba(122,118,122,1);
+}
+
+.espacio-texto{
+    
+    text-align: center;
+    color: gray;
+}
+
+.glyphicon{
+    
+    color: mediumseagreen;
+}
+
+.glyphicon-circle-arrow-left{
+    
+    font-size: 25px;
+    color: red;
 }
 
 @media (min-width: 768px){
@@ -21,7 +58,7 @@
   }
   .sidebar-nav{
         position:fixed; 
-        width:100%;
+        width:17%;
   }
   .affix-sidebar{
     padding-right:0; 
@@ -127,8 +164,8 @@
 
     borde: 1px solid rgba(0, 0, 0, 0.40);
 
-    margin: 0px 50px;
-    margin-top: 30px;
+    margin: 0px ;
+    margin-top: 0px;
     -webkit-box-shadow: 1px 1px 5px 1px rgba(122,118,122,1);
 -moz-box-shadow: 1px 1px 5px 1px rgba(122,118,122,1);
 box-shadow: 1px 1px 5px 1px rgba(122,118,122,1);
@@ -137,7 +174,7 @@ box-shadow: 1px 1px 5px 1px rgba(122,118,122,1);
 
 .imagen-perfil {
     width: 100%;
-    padding: 100px;
+    padding: 60px;
     background-image: url('C:/Users/mariv/Documents/GitHub/mypetscr/img/all.jpg');
      background-repeat: no-repeat;
     background-size: 90em 40em;
@@ -159,7 +196,7 @@ box-shadow: 1px 1px 5px 1px rgba(122,118,122,1);
 
 .espacio {
     width: 100%;
-    padding: 100px;
+    padding: 60px;
     display: flex;
     background: white;
     margin-bottom: 20px;
