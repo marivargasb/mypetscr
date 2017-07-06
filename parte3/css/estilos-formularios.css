@@ -1,0 +1,256 @@
+body {
+    background: white;
+}
+
+header img {
+    margin: auto;
+    display: flex;
+    width: 230px;
+    height: 90px;
+    background: white;
+}
+
+.navegador {
+    height: 130px;
+    background: white;
+}
+
+.navbar {
+    background: white;
+    -webkit-box-shadow: 1px 1px 5px 1px rgba(122, 118, 122, 1);
+    -moz-box-shadow: 1px 1px 5px 1px rgba(122, 118, 122, 1);
+    box-shadow: 1px 1px 5px 1px rgba(122, 118, 122, 1);
+}
+
+.espacio-texto {
+    text-align: center;
+    color: gray;
+}
+
+.glyphicon {
+    color: mediumseagreen;
+}
+
+.glyphicon-circle-arrow-left {
+    font-size: 25px;
+    color: red;
+}
+
+@media (min-width: 768px) {
+    .affix-content .container {
+        width: 700px;
+    }
+    html,
+    body  {
+        background-color: #f8f8f8;
+        height: 100%;
+/*        overflow: hidden;*/
+    }
+    .affix-content .container .page-header {
+        margin-top: 0;
+    }
+    .sidebar-nav {
+        position: fixed;
+        width: 16%;
+    }
+    .affix-sidebar {
+        padding-right: 0;
+        font-size: small;
+        padding-left: 0;
+    }
+    .affix-row,
+    .affix-container,
+    .affix-content {
+        height: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .affix-content {
+        background-color: white;
+    }
+    .sidebar-nav .navbar .navbar-collapse {
+        padding: 0;
+        max-height: none;
+    }
+    .sidebar-nav .navbar {
+        border-radius: 0;
+        margin-bottom: 0;
+        border: 0;
+    }
+    .sidebar-nav .navbar ul {
+        float: none;
+        display: block;
+    }
+    .sidebar-nav .navbar li {
+        float: none;
+        border: 0.1px solid #E5E8E8   ;
+        
+        display: block;
+    }
+    .sidebar-nav .navbar li a {
+        padding-top: 22px;
+        padding-bottom: 30px;
+    }
+}
+
+@media (min-width: 769px) {
+    .affix-content .container {
+        width: 600px;
+    }
+    .affix-content .container .page-header {
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 992px) {
+    .affix-content .container {
+        width: 900px;
+    }
+    .affix-content .container .page-header {
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 1220px) {
+    .affix-row {
+        overflow: hidden;
+    }
+    .affix-content {
+        overflow: auto;
+    }
+    .affix-content .container {
+        width: 800px;
+    }
+    .affix-content .container .page-header {
+        margin-top: 0;
+    }
+    .affix-content {
+        padding-right: 40px;
+        padding-left: 30px;
+    }
+    .affix-title {
+        border-bottom: 1px solid #ecf0f1;
+        padding-bottom: 10px;
+    }
+    .navbar-nav {
+        margin: 0px;
+    }
+    .navbar-collapse {
+        padding: 0;
+    }
+    .sidebar-nav .navbar li a:hover {
+        background-color: #428bca;
+        color: white;
+    }
+    .sidebar-nav .navbar li a > .caret {
+        margin-top: 8px;
+    }
+}
+
+
+
+/* yoooooooooooooooooooooooooooo*/
+
+.perfil {
+    borde: 1px solid rgba(0, 0, 0, 0.40);
+    margin: 0px;
+    margin-top: 0px;
+    -webkit-box-shadow: 1px 1px 5px 1px rgba(122, 118, 122, 1);
+    -moz-box-shadow: 1px 1px 5px 1px rgba(122, 118, 122, 1);
+    box-shadow: 1px 1px 5px 1px rgba(122, 118, 122, 1);
+}
+
+.imagen-perfil {
+    width: 100%;
+    padding: 60px;
+    background-image: url('C:/Users/mariv/Documents/GitHub/mypetscr/img/all.jpg');
+    background-repeat: no-repeat;
+    background-size: 90em 40em;
+}
+
+.perfil .imagen-perfil img {
+    margin: auto;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.perfil img:hover {
+    border-radius: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.40);
+    padding: 10px;
+}
+
+.espacio {
+    width: 100%;
+    padding: 60px;
+    display: flex;
+    background: white;
+    margin-bottom: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.40);
+}
+
+
+/*    DIVIDOR                */
+
+.guarda {
+    background: white;
+    padding: 60px;
+    margin-bottom: 60px;
+}
+
+.guarda p {
+    background: white;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+/*         iman-favorio      */
+
+
+
+
+.favoritos2 {
+    margin: 10px;
+    float: right;
+    height: 150px;
+    width: 350px;
+    background: white;
+    -webkit-box-shadow: 1px 1px 5px 1px rgba(122, 118, 122, 1);
+    -moz-box-shadow: 1px 1px 5px 1px rgba(122, 118, 122, 1);
+    box-shadow: 1px 1px 5px 1px rgba(122, 118, 122, 1);
+}
+
+
+
+.favoritos2 img {
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+.texto {
+    float: right;
+    display: block;
+    width: 200px;
+    text-align: center;
+    background: white;
+}
+.etiquetas {
+    
+      width:300px;
+    height:25px; 
+    
+}
+.boton{
+    
+    
+    
+}
+
+
+
+
+
+
