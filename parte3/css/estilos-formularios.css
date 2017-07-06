@@ -42,7 +42,7 @@ header img {
     }
     html,
     body  {
-        background-color: #f8f8f8;
+       
         height: 100%;
 /*        overflow: hidden;*/
     }
@@ -66,13 +66,18 @@ header img {
         margin-right: 0;
     }
     .affix-content {
-        background-color: white;
+            background-color: #f8f8f8;s
+            -webkit-box-shadow: 1px 1px 5px 1px rgba(122, 118, 122, 1);
+    -moz-box-shadow: 1px 1px 5px 1px rgba(122, 118, 122, 1);
+    box-shadow: 1px 1px 5px 1px rgba(122, 118, 122, 1);
     }
     .sidebar-nav .navbar .navbar-collapse {
         padding: 0;
+       
         max-height: none;
     }
     .sidebar-nav .navbar {
+         margin-right: 20px;
         border-radius: 0;
         margin-bottom: 0;
         border: 0;
@@ -89,6 +94,7 @@ header img {
     }
     .sidebar-nav .navbar li a {
         padding-top: 22px;
+    
         padding-bottom: 30px;
     }
 }
@@ -114,6 +120,7 @@ header img {
 @media (min-width: 1220px) {
     .affix-row {
         overflow: hidden;
+        
     }
     .affix-content {
         overflow: auto;
@@ -125,7 +132,7 @@ header img {
         margin-top: 0;
     }
     .affix-content {
-        padding-right: 40px;
+        padding-right: 30px;
         padding-left: 30px;
     }
     .affix-title {
@@ -136,7 +143,8 @@ header img {
         margin: 0px;
     }
     .navbar-collapse {
-        padding: 0;
+        padding: 0px;
+    
     }
     .sidebar-nav .navbar li a:hover {
         background-color: #428bca;
@@ -146,108 +154,38 @@ header img {
         margin-top: 8px;
     }
 }
-
-
-
-/* yoooooooooooooooooooooooooooo*/
-
-.perfil {
-    borde: 1px solid rgba(0, 0, 0, 0.40);
-    margin: 0px;
-    margin-top: 0px;
-    -webkit-box-shadow: 1px 1px 5px 1px rgba(122, 118, 122, 1);
+.form{
+        background-color: white;
+    padding: 40px;
+   margin-bottom: 50px;
+     -webkit-box-shadow: 1px 1px 5px 1px rgba(122, 118, 122, 1);
     -moz-box-shadow: 1px 1px 5px 1px rgba(122, 118, 122, 1);
     box-shadow: 1px 1px 5px 1px rgba(122, 118, 122, 1);
 }
 
-.imagen-perfil {
-    width: 100%;
-    padding: 60px;
-    background-image: url('C:/Users/mariv/Documents/GitHub/mypetscr/img/all.jpg');
-    background-repeat: no-repeat;
-    background-size: 90em 40em;
-}
-
-.perfil .imagen-perfil img {
-    margin: auto;
-    height: 200px;
-    border-radius: 100%;
-}
-
-.perfil img:hover {
-    border-radius: 100%;
-    border: 1px solid rgba(0, 0, 0, 0.40);
-    padding: 10px;
-}
-
-.espacio {
-    width: 100%;
-    padding: 60px;
-    display: flex;
-    background: white;
-    margin-bottom: 20px;
-    border: 1px solid rgba(0, 0, 0, 0.40);
-}
-
-
-/*    DIVIDOR                */
-
-.guarda {
-    background: white;
-    padding: 60px;
-    margin-bottom: 60px;
-}
-
-.guarda p {
-    background: white;
-    font-size: 50px;
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-
-/*         iman-favorio      */
-
-
-
-
-.favoritos2 {
-    margin: 10px;
-    float: right;
-    height: 150px;
-    width: 350px;
-    background: white;
-    -webkit-box-shadow: 1px 1px 5px 1px rgba(122, 118, 122, 1);
+.caja{
+ 
+        background-color: white;
+     padding: 40px;
+    padding-top: 0px;
+    padding-left: 40px;
+   margin-bottom: 50px;
+     -webkit-box-shadow: 1px 1px 5px 1px rgba(122, 118, 122, 1);
     -moz-box-shadow: 1px 1px 5px 1px rgba(122, 118, 122, 1);
     box-shadow: 1px 1px 5px 1px rgba(122, 118, 122, 1);
 }
+    
+    
+    
 
 
 
-.favoritos2 img {
-    float: left;
-    width: 100px;
-    height: 100px;
-}
 
-.texto {
-    float: right;
-    display: block;
-    width: 200px;
-    text-align: center;
-    background: white;
-}
-.etiquetas {
-    
-      width:300px;
-    height:25px; 
-    
-}
-.boton{
+
     
     
-    
-}
+
+
 
 
 

@@ -1,6 +1,8 @@
+/*barra*/
+
 body{
     
-    background: white;
+    background: red;
     
 }
 header img{
@@ -26,6 +28,8 @@ header img{
 box-shadow: 1px 1px 5px 1px rgba(122,118,122,1);
 }
 
+
+/*       lo demas         */
 .espacio-texto{
     
     text-align: center;
