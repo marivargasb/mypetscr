@@ -5,12 +5,11 @@ body {
 
 header {
     
-    width: 100%;
+  
     overflow: hidden;
-    background: #FDFEFE;
     margin-bottom: 50px;
-    padding: 30px;
-    border: 1px solid rgba(0, 0, 0, 0.40);
+
+ 
 }
 
 

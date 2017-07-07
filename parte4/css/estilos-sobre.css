@@ -2,25 +2,6 @@ body {
     background: white;
 }
 
-header img {
-    margin: auto;
-    display: flex;
-    width: 230px;
-    height: 90px;
-    background: white;
-}
-
-.navegador {
-    height: 130px;
-    background: white;
-}
-
-.navbar {
-    background: white;
-    -webkit-box-shadow: 1px 1px 5px 1px rgba(122, 118, 122, 1);
-    -moz-box-shadow: 1px 1px 5px 1px rgba(122, 118, 122, 1);
-    box-shadow: 1px 1px 5px 1px rgba(122, 118, 122, 1);
-}
 
 /*el resto*/
 
