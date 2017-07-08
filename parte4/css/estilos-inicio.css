@@ -69,23 +69,14 @@
   .navbar {
       margin-bottom: 0;
     background-color: cadetblue;
-      z-index: 9999;
-      border: 0;
-      height: 75px;
-      font-size: 16px;
-      line-height: 1.42857143;
-      letter-spacing: 4px;
+   
     
-      border-radius: 0;
+
      
   }
 /* TITULO LOGO */
 
-  .navbar li a, .navbar .navbar-brand {
-  padding-top: 30px;
-      color: black !important;
-
-  }
+ 
   .navbar-nav li a:hover, .navbar-nav li.active a {
       color: deepskyblue!important;
       background-color: #fff !important;

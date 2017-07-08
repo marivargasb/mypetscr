@@ -175,3 +175,68 @@ ul.alert-dropdown {
 .side-nav>li>ul>li>a:hover {
     color: #fff;
 }
+
+
+footer{
+
+width: 100%;
+background-color: #222;
+padding: 4% 0;
+
+overflow: hidden;
+display: flex;  
+
+}
+
+.about{
+
+width: 800px;
+
+padding: 5px;
+margin: auto;
+
+
+
+
+}
+.about p  {
+
+
+font-family: Arial, Helvetica, sans-serif;
+font-size: 30px;
+color: #8c8c8c ;
+text-align: justify;
+line-height: 30px;
+}
+
+
+footer h4{
+
+font-family: Arial, Helvetica, sans-serif;
+font-size: 40px;
+color: white ;
+text-align: center;
+margin-bottom: 80px; /* separa */ 
+
+}
+
+.contac  {
+
+width: 500px;
+
+padding: 10px;
+margin: auto;
+
+
+
+}
+
+.contac li{
+
+font-family: Arial, Helvetica, sans-serif;
+font-size: 30px;
+color: #8c8c8c ;
+text-align: justify;
+line-height: 20px;
+margin-bottom: 50px; /* separa */ 
+}
