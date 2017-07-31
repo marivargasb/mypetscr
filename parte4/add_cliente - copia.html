@@ -86,7 +86,7 @@
                         </div>
                     </div>
                     <div class="card-footer">
-                        <button class="btn btn-info btn-sm">Follow</button>
+                   <a href="#" data-toggle="modal" data-target="#t_and_c_m">     <button class="btn btn-info btn-sm" >  ENTRAR </button></a>
                     </div>
                 </div>
             </div>
@@ -105,8 +105,8 @@
                         Crea una cuenta y descubre un mundo nuevo
                         </div>
                     </div>
-                    <div class="card-footer">
-                        <button class="btn btn-info btn-sm">Follow</button>
+                      <div class="card-footer">
+                        <button class="btn btn-info btn-sm" id="myModalLabel2" >registro</button>
                     </div>
                 </div>
             </div>
@@ -114,9 +114,64 @@
              <div class="col-sm-12 col-md-3 col-lg-3 mt-12"> </div>
         </div>
 </div>
-    
-    
-    
+   
+   
+   
+   
+   
+   
+   
+   <!-- inicio de seccion-->
+   
+ <div class="modal fade" id="t_and_c_m" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+				<h4 class="modal-title" id="myModalLabel"> INGRESAR</h4>
+			</div>
+			<div class="modal-body">
+			<div class="container">
+
+<div class="row" style="margin-top:20px">
+    <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-1">
+		<form role="form">
+			<fieldset>
+				<h2>Please Sign In</h2>
+				<hr class="colorgraph">
+				<div class="form-group">
+                    <input type="email" name="email" id="email" class="form-control input-lg" placeholder="Email Address">
+				</div>
+				<div class="form-group">
+                    <input type="password" name="password" id="password" class="form-control input-lg" placeholder="Password">
+				</div>
+				<span class="button-checkbox">
+					<button type="button" class="btn" data-color="info">Remember Me</button>
+                    <input type="checkbox" name="remember_me" id="remember_me" checked="checked" class="hidden">
+					<a href="" class="btn btn-link pull-right">Forgot Password?</a>
+				</span>
+				<hr class="colorgraph">
+				<div class="row">
+					<div class="col-xs-6 col-sm-6 col-md-6">
+                        <input type="submit" class="btn btn-lg btn-success btn-block" value="Sign In">
+					</div>
+					
+				</div>
+			</fieldset>
+		</form>
+	</div>
+</div>
+
+</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-primary" data-dismiss="modal">I Agree</button>
+			</div>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+   
+   
     
     
     <section class="info_registro  ">
@@ -134,7 +189,7 @@
         
          <!-- jQuery -->
     <script src="js/jquery.js"></script>
-
+     <script src="js/js-login-usuario.js"></script>
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
