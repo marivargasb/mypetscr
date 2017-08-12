@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -193,7 +194,7 @@
 			<div class="row">
 				<div class="col-xs-12 col-sm-6 col-md-6">
 					<div class="form-group">
-                        <input type="text" name="first_name" id="first_name" class="form-control input-lg" placeholder="First Name" tabindex="1">
+                        <input type="text" name="first_name" id="first_name " class="form-control input-lg" placeholder="First Name" tabindex="1">
 					</div>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-md-6">
@@ -223,7 +224,7 @@
 			<div class="row">
 				<div class="col-xs-4 col-sm-3 col-md-3">
 					<span class="button-checkbox">
-						<button type="button" class="btn" data-color="info" tabindex="7">I Agree</button>
+						<button type="button" class="btn"  data-color="info" tabindex="7">I Agree</button>
                         <input type="checkbox" name="t_and_c" id="t_and_c" class="hidden" value="1">
 					</span>
 				</div>
@@ -234,7 +235,8 @@
 			
 			<hr class="colorgraph">
 			<div class="row">
-				<div class="col-xs-12 col-md-6"><input type="submit" value="Register" class="btn btn-primary btn-block btn-lg" tabindex="7"></div>
+				<div class="col-xs-12 col-md-6"><input id="btn-add"  onclick="saveToLocalStorage($('input#first_name').val(), $('input#last_name').val() 
+				, $('input#display_name').val(), $('input#email3').val(), $('input#password').val(), $('input#password_confirmation').val());" type="submit"  value="Register" class="btn btn-primary btn-block btn-lg" tabindex="7"></div>
 				
 			</div>
 		</form>
@@ -266,8 +268,7 @@
     
 
 
-
-   
+     <script src="local/add-user.js"></script>
         
          <!-- jQuery -->
     <script src="js/jquery.js"></script>
@@ -275,7 +276,7 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
     
-         <!-- footer-->
+<!-- footer-->
 
 
 
@@ -283,7 +284,9 @@
     <script src="js/plugins/morris/raphael.min.js"></script>
     <script src="js/plugins/morris/morris.min.js"></script>
     <script src="js/plugins/morris/morris-data.js"></script>
-
+   <!-- registro -->
+     
+    
 
 
 </body>
