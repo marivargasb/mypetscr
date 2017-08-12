@@ -1,3 +1,147 @@
+window.onload = function () {
+
+
+document.querySelector("#btn-add").addEventListener('click', function () {
+              
+ var first_name = document.getElementById("first_name"),
+     last_name = document.getElementById("last_name"),
+     display_name = document.getElementById("display_name"),
+     email3 = document.getElementById("email3"),
+     password3 = document.getElementById("password3"),
+     password_confirmation = document.getElementById("password_confirmation");
+                
+ alert('click' + first_name.value  );
+
+ 
+            })
+    
+    
+}
+    
+    
+    
+     
+/*
+
+
+
+function cargar(){
+     
+    
+ var first_name = "";
+ var last_name =  "";  
+ var display_name ="";
+ var email3 = "";
+ var password3 = "";
+ var password_confirmation = "";
+    
+      alert('click' + first_name.value  );
+    
+     first_name = document.getElementById("first_name"),
+     last_name = document.getElementById("last_name"),
+     display_name = document.getElementById("display_name"),
+     email3 = document.getElementById("email3"),
+     password3 = document.getElementById("password3"),
+     password_confirmation = document.getElementById("password_confirmation")
+    
+       alert('click' + first_name.value  );
+    
+}
+
+
+ document.getElementById('btn-add').onclick = cargar;
+
+
+*/
+
+
+
+
+
+
+
+
+/*
+
+
+
+
+window.onload = function () {                
+                var first_name = "";
+                 var   last_name = "";  
+                 var   display_name = "";
+                 var   email3 = "";
+                 var    password3 = "";
+                var    password_confirmation = "";
+
+     first_name = document.getElementById("first_name").nodeValue;
+     last_name = document.getElementById("last_name").nodeValue;
+     display_name = document.getElementById("display_name").nodeValue;
+     email3 = document.getElementById("email3").nodeValue;
+     password3 = document.getElementById("password3").nodeValue;
+     password_confirmation = document.getElementById("password_confirmation").nodeValue;
+
+
+    
+var users = JSON.parse(localStorage.getItem('users'));
+
+if (!users) {
+	users = [];
+}
+    
+    
+
+
+  function registrar()
+{
+    
+  alert('click'  );
+    
+    var user = {
+                   first_name: first_name.value,
+                    last_name: last_name.value,
+                   display_name: display_name.value,
+                    email3: email3.value,
+                   password3:  password3.value,
+                    password_confirmation:  password_confirmation.value
+                   
+                };
+                
+    users.push(user);
+
+	localStorage.setItem('users', JSON.stringify(users));
+    
+    
+              
+
+    
+}
+
+document.getElementById('btn-add').onclick = registrar;
+
+
+}
+
+
+function hola()
+
+    {
+
+        alert("Adios!"  );
+
+    }
+
+
+document.getElementById('btn-add').onclick = hola;
+
+
+
+*/
+
+
+
+
+
 /*
         window.onload = function () {
             var localStorageKeyName = 'data';
@@ -70,14 +214,14 @@
 
 
 
-
+/*
  var users = JSON.parse(localStorage.getItem('users'));
 
 if (!users) {
 	users = [];
-}
+}*/
 
-
+/*
 function saveToLocalStorage( first_name,last_name,display_name,email3,password3,password_confirmation) {
 	var user = {
 	
@@ -97,7 +241,7 @@ function saveToLocalStorage( first_name,last_name,display_name,email3,password3,
 }
 
 
-/*function loadUsers() {
+function loadUsers() {
 
 	// read users from localstorage
 	// loop users
@@ -105,6 +249,7 @@ function saveToLocalStorage( first_name,last_name,display_name,email3,password3,
 	for (var i = 0; i < users.length; i++) {
 		// add users to the table
 		var u = users[i];
+        
 		user_html = user_html + "<tr><td>"+u.username+"</td><td>"+
 		u.password+"</td></tr>";
 	}
@@ -113,6 +258,17 @@ function saveToLocalStorage( first_name,last_name,display_name,email3,password3,
 
 }*/
 
+/*
+function go(){
+if (document.form.password.value=='password3' && document.form.login.value=='email3'){ 
+        document.form.submit(); 
+    } 
+    else{ 
+         alert("Porfavor ingrese, nombre de usuario y contraseña correctos."); 
+    } 
+} 
+
+*/
 
 
             

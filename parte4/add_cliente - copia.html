@@ -128,10 +128,10 @@
 				<h2>Please Sign In</h2>
 				<hr class="colorgraph">
 				<div class="form-group">
-                    <input type="email" name="email" id="email" class="form-control input-lg" placeholder="Email Address">
+                    <input type="email" name="email" id="email_login" class="form-control input-lg" placeholder="Email Address">
 				</div>
 				<div class="form-group">
-                    <input type="password" name="password" id="password" class="form-control input-lg" placeholder="Password">
+                    <input type="password" name="password" id="password-login" class="form-control input-lg" placeholder="Password">
 				</div>
 				<span class="button-checkbox">
 					<button type="button" class="btn" data-color="info">Remember Me</button>
@@ -207,12 +207,12 @@
 				<input type="text" name="display_name" id="display_name" class="form-control input-lg" placeholder="Display Name" tabindex="3">
 			</div>
 			<div class="form-group">
-				<input type="email" name="email" id="email3" class="form-control input-lg" placeholder="Email Address" tabindex="4">
+				<input type="email" name="email" id="email" class="form-control input-lg" placeholder="Email Address" tabindex="4">
 			</div>
 			<div class="row">
 				<div class="col-xs-12 col-sm-6 col-md-6">
 					<div class="form-group">
-						<input type="password" name="password" id="password3" class="form-control input-lg" placeholder="Password" tabindex="5">
+						<input type="password" name="password" id="password" class="form-control input-lg" placeholder="Password" tabindex="5">
 					</div>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-md-6">
@@ -235,9 +235,17 @@
 			
 			<hr class="colorgraph">
 			<div class="row">
-				<div class="col-xs-12 col-md-6"><input id="btn-add"  onclick="saveToLocalStorage($('input#first_name').val(), $('input#last_name').val() 
-				, $('input#display_name').val(), $('input#email3').val(), $('input#password').val(), $('input#password_confirmation').val());" type="submit"  value="Register" class="btn btn-primary btn-block btn-lg" tabindex="7"></div>
+				<div class="col-xs-12 col-md-6">
 				
+				 
+				   <input id="btn-add"  onclick="registrar_usuario()"  type="submit"  value="Register" class="btn btn-primary btn-block btn-lg" tabindex="7">
+				
+				
+				</div>
+				
+				<!--onclick="saveToLocalStorage($('input#first_name').val(), $('input#last_name').val() 
+				, $('input#display_name').val(), $('input#email3').val(), $('input#password').val(), $('input#password_confirmation').val());"
+				-->
 			</div>
 		</form>
 	</div>
@@ -268,7 +276,7 @@
     
 
 
-     <script src="local/add-user.js"></script>
+     <script src="local/add-login.js"></script>
         
          <!-- jQuery -->
     <script src="js/jquery.js"></script>
