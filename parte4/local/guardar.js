@@ -49,8 +49,8 @@ function saveToLocalStorage( first_name,last_name,telefono,email,password,passwo
   "first_name": first_name,
   "last_name": last_name,
   "telefono": telefono,
-  "email3": email,
-  "password3":  password,
+  "email": email,
+  "password":  password,
   "password_confirmation":  password_confirmation
 	};
     
@@ -59,7 +59,7 @@ function saveToLocalStorage( first_name,last_name,telefono,email,password,passwo
 	localStorage.setItem('users', JSON.stringify(users));
 	//loadUsers();
     
-    login_user(users);
+   // login_user(users);
     
 }
 
@@ -98,24 +98,56 @@ function login_user(users) {
 
 /*AQUI INICIA EL REGISTRO DE CLIENTE*/
 
-/*
+
 
 var registrar_usuario = function(){
     
-    
+     alert('click');
     var first_name = document.getElementById("first_name").value;
     var last_name = document.getElementById("last_name").value;
-    var display_name = document.getElementById("display_name").value;
-    var email3 = document.getElementById("email3").value;
-    var password3 = document.getElementById("password3").value;
-    var password_confirmation = document.getElementById("password_confirmation").value;
-                
-    console.log(first_name + "   " + last_name);
-         alert('click' + first_name + " " + last_name);
+  var display_name = document.getElementById("display_name").value;
+    var email = document.getElementById("email").value;
+ var password = document.getElementById("password").value;
+  var password_confirmation = document.getElementById("password_confirmation").value;
+            
     
+   saveToLocalStorageusuarios( first_name, last_name,display_name, email,password, password_confirmation);
 }
 
-*/
+
+
+var usuarios = JSON.parse(localStorage.getItem('usuarios'));
+
+if (!usuarios) {
+	usuarios = [];
+}
+
+
+function saveToLocalStorageusuarios( first_name, last_name,display_name, email,password, password_confirmation) {
+    
+    
+var usuario ={
+                    first_name: first_name.value,
+                    last_name: last_name.value,
+                    display_name: display_name.value,
+                    email: email.value,
+                    password:  password.value,
+                    password_confirmation:  password_confirmation.value
+};
+     alert('click' + password+ " " + password_confirmation  +" " + email +" " +  first_name + " " + last_name + " " +  display_name );
+
+     
+   usuarios.push(usuario);
+   localStorage.setItem('usuarios', JSON.stringify(usuarios)); 
+    
+     alert(usuario);
+      alert(usuarios);
+     alert('click' + password+ " " + password_confirmation  +" " + email +" " +  first_name + " " + last_name + " " +  display_name );
+}
+
+
+
+
 
 /*AQUI INICIA A GUARDAR LOS DATOS DE LA PERSONA*/
 
@@ -147,6 +179,8 @@ if (!forms) {
 }
 
 
+
+
 function saveToLocalStorageforms( nombre,  apellido,fecha,foto) {
     
 var form ={
@@ -169,7 +203,7 @@ var form ={
 
 
 var registrar_lugar = function(){
-     alert('click ');
+     
     
   var negocio = document.getElementById("negocio").value;
     var email = document.getElementById("email").value;
@@ -183,9 +217,51 @@ var registrar_lugar = function(){
     console.log(telefono + "   " + email);
     alert('click ' + descripcion + "   " + direccion);
 
- 
+ saveToLocalStorageformslugares(negocio,email,web,telefono, categoria,provincia,direccion,descripcion,foto);
 
 }
+
+
+var lugares = JSON.parse(localStorage.getItem('lugares'));
+
+if (!lugares) {
+	lugares = [];
+}
+
+
+function saveToLocalStorageformslugares( negocio,email,web,telefono, categoria,provincia,direccion,descripcion,foto) {
+    
+    
+    var lugar ={
+      
+    "negocio" : negocio,
+    "email" : email,
+    "web" : web,
+   "telefono" : telefono,                                                             "categoria" : categoria,
+   "provincia" : provincia,
+    "direccion" : direccion,
+   "descripcion" : descripcion,
+   "foto" : foto
+    
+};    
+    
+  
+    alert('click ' + descripcion + "   " + direccion);  
+  
+    
+    
+       lugares.push(lugar);
+   localStorage.setItem('lugares', JSON.stringify(lugares)); 
+   
+    
+    
+    alert('click ' + descripcion + "   " + direccion);  
+    
+}
+
+    
+
+    
 
 
 
