@@ -1,3 +1,13 @@
+var personasRegistradas = [];
+var user= {
+
+first_name: "",
+ last_name: "",
+ telefono: "",
+email: "",
+password: "",
+password_confirmation : ""
+};
 
     
     
@@ -16,13 +26,20 @@ var registrar_persona = function(){
     var email = document.getElementById("email").value;
     var password = document.getElementById("password").value;
     var password_confirmation = document.getElementById("password_confirmation").value;
-                
-    console.log(first_name + "   " + last_name);
-    alert('click' + first_name + " " + last_name);
+
+  
+
+    var usuario = document.getElementById("emailLogin").value;
+    
+ if (verificacionLogin(usuario) == 's') {
+        alert("ESTE CORREO YA FUE REGISTRADO");
+    } else {
     
     saveToLocalStorage( first_name,last_name,telefono,email,password,password_confirmation);
 
-}
+     
+    }
+};
 
 
 
@@ -57,67 +74,90 @@ function saveToLocalStorage( first_name,last_name,telefono,email,password,passwo
 	users.push(user);
 
 	localStorage.setItem('users', JSON.stringify(users));
-	//loadUsers();
     
-   // login_user(users);
+          alert('USUARIO AGREGADO' );
+        window.open("file:///C:/Users/mariv/Documents/GitHub/mypetscr/parte4/perfil.html");
+       
+	
     
 }
 
 
-/*LOGIN DE TODOS*/
+
+/* REGISTRO  VERIFICACIONES*/
+
+
+
+function getPersonasRegistradas() {
+    var user = localStorage.getItem('users');
+       alert(user + "entrando al get");
+
+    if (user == null) {
+        personasRegistradas = [];
+
+
+    } else {
+          alert("else" + user);
+        personasRegistradas = JSON.parse(user);
+
+
+    }
+
+    return personasRegistradas;
+
+    alert("return" + personasRegistradas);
+
+}
+
+function verificacionLogin(usuario, contra) {
+    var usuario = usuario;
+    var existe = 'n';
+
+      alert("verificacionLogin" + usuario +existe);
+
+    var lista = getPersonasRegistradas();
+
+    for (var i = 0; i < lista.length; i++) {
+        var nombre = lista[i].first_name;
+        var apellido = lista[i].last_name;
+        var telefono = lista[i].telefono;
+        var correo = lista[i].email;
+        var password_confirmation = lista[i].password_confirmation;
+        var passw = lista[i].password;
 
 
 
 
+        var user = {
 
-/*AQUI INICIA EL REGISTRO DE CLIENTE*/
+            first_name: nombre,
+            last_name: apellido,
+            telefono: telefono,
+            email:correo,
+            password_confirmation: password_confirmation,
+            password: passw
+        }
 
 
 
-/*var registrar_usuario = function(){
-    
-     alert('click');
-    var first_name = document.getElementById("first_name").value;
-    var last_name = document.getElementById("last_name").value;
-  var display_name = document.getElementById("display_name").value;
-    var email = document.getElementById("email").value;
- var password = document.getElementById("password").value;
-  var password_confirmation = document.getElementById("password_confirmation").value;
-            
-    
-   saveToLocalStorageusuarios( first_name, last_name,display_name, email,password, password_confirmation);
+        if (correo == usuario) {
+            existe = 's';
+            //personaLogueadaInformacion.push(persona);
+            personaLogueada(user);
+            return existe;
+        } else {
+            existe = 'n';
+        }
+    }
+    return existe;
+}
+
+function personaLogueada(user) {
+    localStorage.setItem('users', JSON.stringify(user));
+
 }
 
 
-
-var usuarios = JSON.parse(localStorage.getItem('usuarios'));
-
-if (!usuarios) {
-	usuarios = [];
-}
-
-
-function saveToLocalStorageusuarios( first_name, last_name,display_name, email,password, password_confirmation) {
-    
-    
-var usuario ={
-                    first_name: first_name.value,
-                    last_name: last_name.value,
-                    display_name: display_name.value,
-                    email: email.value,
-                    password:  password.value,
-                    password_confirmation:  password_confirmation.value
-};
-     alert('click' + password+ " " + password_confirmation  +" " + email +" " +  first_name + " " + last_name + " " +  display_name );
-
-     
-   usuarios.push(usuario);
-   localStorage.setItem('usuarios', JSON.stringify(usuarios)); 
-    
-     alert(usuario);
-      alert(usuarios);
-     alert('click' + password+ " " + password_confirmation  +" " + email +" " +  first_name + " " + last_name + " " +  display_name );
-}*/
 
 
 
