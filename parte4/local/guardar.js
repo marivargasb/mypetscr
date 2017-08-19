@@ -7,7 +7,7 @@
 /*AQUI INICIA EL REGISTRO DE  CLIENTE*/
 
 
-var registrar_cliente = function(){
+var registrar_persona = function(){
     
     
     var first_name = document.getElementById("first_name").value;
@@ -69,38 +69,12 @@ function saveToLocalStorage( first_name,last_name,telefono,email,password,passwo
 
 
 
-function login_user(users) {
-    
-    
-    var emailLogin = document.getElementById("emailLogin").value;
-    var passwordLogin = document.getElementById("passwordLogin").value;
-    
-     console.log(emailLogin + "   " + passwordLogin);
-    alert('click' + emailLogin + " " +passwordLogin );
-    
-   alert(users);
-    
-/*	// read users from localstorage
-	// loop users
-	var user_html = "";
-	for (var i = 0; i < users.length; i++) {
-		// add users to the table
-		var u = users[i];
-        
-		user_html = user_html + "<tr><td>"+u.username+"</td><td>"+
-		u.password+"</td></tr>";
-	}
-
-	$('#users_table').html(user_html);*/
-
-}
-
 
 /*AQUI INICIA EL REGISTRO DE CLIENTE*/
 
 
 
-var registrar_usuario = function(){
+/*var registrar_usuario = function(){
     
      alert('click');
     var first_name = document.getElementById("first_name").value;
@@ -143,7 +117,7 @@ var usuario ={
      alert(usuario);
       alert(usuarios);
      alert('click' + password+ " " + password_confirmation  +" " + email +" " +  first_name + " " + last_name + " " +  display_name );
-}
+}*/
 
 
 

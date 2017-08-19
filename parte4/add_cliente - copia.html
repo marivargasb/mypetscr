@@ -142,7 +142,7 @@
 				<div class="row">
 					<div class="col-xs-6 col-sm-6 col-md-6">
                        
-                        <input  type="submit"  onclick="entrar()" class="btn btn-lg btn-success btn-block"  value="Sign In">
+                        <input  type="submit"  onclick="validar()" class="btn btn-lg btn-success btn-block"  value="Sign In">
                         
                         
 					</div>
@@ -189,7 +189,7 @@
                           
                           <div class="container">
 
-<div class="row">
+<div class="row" style="margin-top:20px" >
     <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-1">
 		<form role="form">
 			<h2>Please Sign Up <small>It's free and always will be.</small></h2>
@@ -207,7 +207,7 @@
 				</div>
 			</div>
 			<div class="form-group">
-				<input type="text" name="display_name" id="display_name" class="form-control input-lg" placeholder="Display Name" tabindex="3">
+				<input type="text" name="telefono" id="telefono" class="form-control input-lg" placeholder="Telefono" tabindex="3">
 			</div>
 			<div class="form-group">
 				<input type="email" name="email" id="email" class="form-control input-lg" placeholder="Email Address" tabindex="4">
@@ -227,7 +227,7 @@
 			<div class="row">
 				<div class="col-xs-4 col-sm-3 col-md-3">
 					<span class="button-checkbox">
-						<button type="button" class="btn"  data-color="info" tabindex="7">I Agree</button>
+						<button type="button" class="btn" data-color="info" tabindex="7">I Agree</button>
                         <input type="checkbox" name="t_and_c" id="t_and_c" class="hidden" value="1">
 					</span>
 				</div>
@@ -238,17 +238,8 @@
 			
 			<hr class="colorgraph">
 			<div class="row">
-				<div class="col-xs-12 col-md-6">
-				
-				 
-				   <input id="btn-add"  onclick="registrar_usuario()"  type="submit"  value="Register" class="btn btn-primary btn-block btn-lg" tabindex="7">
-				
-				
-				</div>
-				
-				<!--onclick="saveToLocalStorage($('input#first_name').val(), $('input#last_name').val() 
-				, $('input#display_name').val(), $('input#email3').val(), $('input#password').val(), $('input#password_confirmation').val());"
-				-->
+				<div class="col-xs-12 col-md-6"><input onclick="registrar_persona()" type="submit" value="Register" class="btn btn-primary btn-block btn-lg" tabindex="7"></div>
+				<div class="col-xs-12 col-md-6"><a href="#" class="btn btn-success btn-block btn-lg">Sign In</a></div>
 			</div>
 		</form>
 	</div>
@@ -269,17 +260,7 @@
     
     
     
-        <table id="grid" class="table table-striped">
-                    <thead>
-                        <tr>
-                           
-                        </tr>
-                        <tr>
-                         
-                        </tr>
-                    </thead>
-                    <tbody></tbody>
-                </table>
+   
             
     
     <section class="info_registro  ">
